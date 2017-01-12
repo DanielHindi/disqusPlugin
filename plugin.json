@@ -1,0 +1,13 @@
+{
+    "author":"Daniel Hindi"
+  , "pluginName":"Disqus"
+  , "pluginDescription":"Test discus as a plugin"
+  , "supportEmail":"daniel@madaincorp.com"
+  , "control":{
+      "content":{ "enabled":false }
+      , "design":{ "enabled":false }
+      , "settings":{ "enabled":true }
+  }
+  , "features" : []
+  , "languages": ["en"]
+}

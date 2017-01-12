@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--
+		NOTE:
+		1. You can reference the file in SDK via relative path
+		2. The Control and Widget Should NOT share resources. Only the Widget folder will make it to the device
+		3. You may include any JS framework you want with your Widget and Control folders. However, keep in mind
+		    to keep you plugin as light weight as possible for performance and transport reasons
+	-->
+
+	<!-- You can load helper.css to use our helper classes.
+	<link href="../../../../styles/helper.css" rel="stylesheet">
+	-->
+
+	<!-- JS -->
+	<script src="../../../scripts/buildfire.js"></script>
+
+	<!--
+   <script src="../../../../scripts/angular/angular.min.js"></script>
+   <script src="../../../../scripts/angular/ui-bootstrap.min.js"></script>
+
+   <script src="../../../../scripts/jquery/jquery-1.11.2.min.js"></script>
+   -->
+</head>
+<body>
+
+
+<div id="disqus_thread"></div>
+<script>
+
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+     var disqus_config = function () {
+     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+     };
+     */
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//http-app-buildfire-com.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+</body>
+</html>
